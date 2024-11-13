@@ -1,0 +1,225 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-image: url("../images/bg-desktop.svg");
+    background-color: hsl(257, 40%, 49%);
+    width: 100%;
+    height: 70vh;
+}
+
+@media (max-width: 375px) {
+    body {
+        background-image: url("../images/bg-mobile.svg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+
+
+.head-huddle {
+    width: 15%;
+    margin-top: 3%;
+    margin-left: 3%;
+    margin-bottom: 5%;
+}
+
+@media (max-width: 375px) {
+    .head-huddle {
+        width: 35%;
+        margin-top: 15%;
+        margin-left: 10%;
+        margin-bottom: 16%;
+    }
+}
+
+
+.section {
+    /* width: 100%; */
+    display: flex;
+    margin-left: 6%;
+}
+
+@media (max-width: 375px) {
+    .section {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.section .text-sect .heading-txt {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 37px;
+    font-weight: 600;
+    margin-bottom: 3%;
+}
+
+@media (max-width: 375px) {
+    .section .text-sect .heading-txt {
+        text-align: center;
+        font-size: 22px;
+        margin-top: 10%;
+        margin-left: -8%;
+    }
+}
+
+.section .text-sect {
+    margin-left: 4%;
+    margin-top: 2%;
+}
+
+@media (max-width: 375px) {
+    .sectin .text-sect {
+        margin-left: unset;
+    }
+}
+
+.section img {
+    width: 46%;
+}
+
+@media (max-width: 375px) {
+    .section img {
+        width: 85%;
+        margin: auto;
+    }
+}
+
+.text-sect p {
+    width: 465px;
+    color: white;
+    line-height: 27px;
+    margin-bottom: 6%;
+}
+
+@media (max-width: 375px) {
+    .text-sect p {
+        text-align: center;
+        width: 300px;
+        margin-left: -4%;
+    }
+}
+
+.text-sect .button {
+    width: 220px;
+    height: 50px;
+    background-color: white;
+    color: hsl(257, 40%, 49%);
+    box-shadow: 2px 3px 10px #19191980;
+    display: flex;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-size: 400;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+@media (max-width: 375px) {
+    .text-sect .button {
+        width: 180px;
+        height: 33px;
+        font-size: 13px;
+        margin-left: 16%;
+        margin-bottom: 60px;
+    }
+}
+
+.text-sect .button:hover {
+    background-color: hsl(300, 69%, 71%);
+    color: white;
+}
+
+
+/* social-media */
+
+.left-so {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+@media (max-width: 375px) {
+    .left-so {
+        justify-content: center;
+    }
+}
+
+
+.social-media {
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 7%;
+}
+
+@media (max-width: 375px) {
+    .social-media {
+        width: 130px;
+        margin-bottom: 32%;
+        margin-right: unset;
+    }
+}
+
+.social-media i {
+    color: white;
+    font-size: 18px;
+    width: 40px;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media (max-width: 375px) {
+    .social-media i {
+        font-size: 16px;
+        width: 34px;
+        height: 34px;
+    }
+}
+
+# Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+- Violet: hsl(257, 40%, 49%)
+- Soft Magenta: hsl(300, 69%, 71%)
+
+## Typography
+
+### Headings
+
+- Family: [Poppins](https://fonts.google.com/specimen/Poppins)
+- Weights: 400, 600
+
+### Body
+
+- Family: [Open Sans](https://fonts.google.com/specimen/Open+Sans)
+- Weights: 400
+
+## Icons
+
+For the social icons, you can use a font icon library. Some suggestions can be found below:
+
+- [Font Awesome](https://fontawesome.com/)
+- [IcoMoon](https://icomoon.io/)
+- [Ionicons](https://ionicons.com/)
